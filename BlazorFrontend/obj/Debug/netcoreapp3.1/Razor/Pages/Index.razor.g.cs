@@ -72,6 +72,20 @@ using BlazorFrontend.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 10 "C:\Users\tr3yf\source\repos\dart\BlazorFrontend\_Imports.razor"
+using dartServer;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 11 "C:\Users\tr3yf\source\repos\dart\BlazorFrontend\_Imports.razor"
+using Grpc.Net.Client;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/")]
     public partial class Index : Microsoft.AspNetCore.Components.ComponentBase
     {

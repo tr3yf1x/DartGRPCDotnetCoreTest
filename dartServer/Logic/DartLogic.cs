@@ -148,7 +148,13 @@ namespace DartLogic
 
         public int GetPoints(NormalizedPoint _point)
         {
-            var multiplicator = GetDistanceMultiplicator(DistanceToCenter(_point)).multiplicator;
+            var distance = DistanceToCenter(_point);
+            if(distance > 1.0)
+            {
+                return 0;
+            }
+
+            var multiplicator = GetDistanceMultiplicator(distance).multiplicator;
             return multiplicator >= 25 ? multiplicator : multiplicator * GetPointsForAngle(GetAngle(_point)).points;
         }
 

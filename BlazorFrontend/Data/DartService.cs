@@ -8,13 +8,13 @@ namespace BlazorFrontend.Data
 {
     public class DartService
     {
-        public DartThrow GetDartThrow(double _xCoord, double _yCoord)
+        public DartThrow GetDartThrowAsync(double _xCoord, double _yCoord)
         {
             // The port number(5001) must match the port of the gRPC server.
             using var channel = GrpcChannel.ForAddress("https://localhost:5001");
             var client =  new Greeter.GreeterClient(channel);
             var reply = client.GetThrowResult(
-                    new ThrowRequest { XCoord = 0.5, YCoord = 0.2});
+                    new ThrowRequest { XCoord = _xCoord, YCoord = _yCoord});
 
             var retVal = new DartThrow();
 

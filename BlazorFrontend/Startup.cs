@@ -29,6 +29,7 @@ namespace BlazorFrontend
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
+            services.AddSingleton<DartService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
