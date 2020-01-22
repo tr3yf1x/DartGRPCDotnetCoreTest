@@ -1,6 +1,7 @@
 # Background
 
 This simple project was / is a proof of concept, to test two technologies I've been interested for a long time: `blazor` and `grpc`.
+Use the search-engine of you choice to find out how and why to install dotnet-core.
 
 I choose a fairly simple, but maybe useful use case for the `grpc`-service: _darts_.
 This service may be used for some small `iot`, `maker` or tutorial-projects.
