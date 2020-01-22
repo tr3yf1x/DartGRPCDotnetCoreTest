@@ -1,8 +1,0 @@
-C:\Users\tr3yf\source\repos\dart\dartLogicFsharp\bin\Debug\netstandard2.0\dartLogicFsharp.deps.json
-C:\Users\tr3yf\source\repos\dart\dartLogicFsharp\bin\Debug\netstandard2.0\dartLogicFsharp.dll
-C:\Users\tr3yf\source\repos\dart\dartLogicFsharp\bin\Debug\netstandard2.0\dartLogicFsharp.pdb
-C:\Users\tr3yf\source\repos\dart\dartLogicFsharp\obj\Debug\netstandard2.0\dartLogicFsharp.fsprojAssemblyReference.cache
-C:\Users\tr3yf\source\repos\dart\dartLogicFsharp\obj\Debug\netstandard2.0\dartLogicFsharp.AssemblyInfoInputs.cache
-C:\Users\tr3yf\source\repos\dart\dartLogicFsharp\obj\Debug\netstandard2.0\dartLogicFsharp.AssemblyInfo.fs
-C:\Users\tr3yf\source\repos\dart\dartLogicFsharp\obj\Debug\netstandard2.0\dartLogicFsharp.dll
-C:\Users\tr3yf\source\repos\dart\dartLogicFsharp\obj\Debug\netstandard2.0\dartLogicFsharp.pdb

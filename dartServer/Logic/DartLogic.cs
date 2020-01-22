@@ -179,7 +179,5 @@ namespace DartLogic
             Console.WriteLine("Angle: " +  _throw.angle);
             Console.WriteLine("Points: " +  _throw.points);
         }
-
-
     }
 }

@@ -21,7 +21,7 @@ namespace dartServer
             return Task.FromResult(new HelloReply
             {
                 Message = "Hello " + request.Name
-            });
+                });
         }
 
         public override Task<ThrowReply> GetThrowResult(ThrowRequest request, ServerCallContext context)
@@ -29,14 +29,14 @@ namespace dartServer
             ThrowSummary summary = new ThrowAnalyzer().GetThrowSummary(request.XCoord, request.YCoord);
             return Task.FromResult(new ThrowReply
                     {
-XCoord = summary.xCoord,
-YCoord = summary.yCoord,
-DistanceToCenter = summary.distanceToCenter,
-HitTheBoard = summary.hitTheBoard,
-Multiplicator = summary.multiplicator,
-Angle = summary.angle,
-PointSlot = summary.pointSlot,
-Points = summary.points
+                    XCoord = summary.xCoord,
+                    YCoord = summary.yCoord,
+                    DistanceToCenter = summary.distanceToCenter,
+                    HitTheBoard = summary.hitTheBoard,
+                    Multiplicator = summary.multiplicator,
+                    Angle = summary.angle,
+                    PointSlot = summary.pointSlot,
+                    Points = summary.points
                     });
 
         }
