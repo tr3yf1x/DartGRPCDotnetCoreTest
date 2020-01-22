@@ -1,0 +1,17 @@
+C:\Users\tr3yf\source\repos\dart\simpleConsoleClient\obj\Debug\netcoreapp3.1\simpleConsoleClient.csprojAssemblyReference.cache
+C:\Users\tr3yf\source\repos\dart\simpleConsoleClient\obj\Debug\netcoreapp3.1\simpleConsoleClient.AssemblyInfoInputs.cache
+C:\Users\tr3yf\source\repos\dart\simpleConsoleClient\obj\Debug\netcoreapp3.1\simpleConsoleClient.AssemblyInfo.cs
+C:\Users\tr3yf\source\repos\dart\simpleConsoleClient\bin\Debug\netcoreapp3.1\simpleConsoleClient.exe
+C:\Users\tr3yf\source\repos\dart\simpleConsoleClient\bin\Debug\netcoreapp3.1\simpleConsoleClient.deps.json
+C:\Users\tr3yf\source\repos\dart\simpleConsoleClient\bin\Debug\netcoreapp3.1\simpleConsoleClient.runtimeconfig.json
+C:\Users\tr3yf\source\repos\dart\simpleConsoleClient\bin\Debug\netcoreapp3.1\simpleConsoleClient.runtimeconfig.dev.json
+C:\Users\tr3yf\source\repos\dart\simpleConsoleClient\bin\Debug\netcoreapp3.1\simpleConsoleClient.dll
+C:\Users\tr3yf\source\repos\dart\simpleConsoleClient\bin\Debug\netcoreapp3.1\simpleConsoleClient.pdb
+C:\Users\tr3yf\source\repos\dart\simpleConsoleClient\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\tr3yf\source\repos\dart\simpleConsoleClient\bin\Debug\netcoreapp3.1\Grpc.Core.Api.dll
+C:\Users\tr3yf\source\repos\dart\simpleConsoleClient\bin\Debug\netcoreapp3.1\Grpc.Net.Client.dll
+C:\Users\tr3yf\source\repos\dart\simpleConsoleClient\bin\Debug\netcoreapp3.1\Grpc.Net.Common.dll
+C:\Users\tr3yf\source\repos\dart\simpleConsoleClient\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\tr3yf\source\repos\dart\simpleConsoleClient\obj\Debug\netcoreapp3.1\simpleConsoleClient.csproj.CopyComplete
+C:\Users\tr3yf\source\repos\dart\simpleConsoleClient\obj\Debug\netcoreapp3.1\simpleConsoleClient.dll
+C:\Users\tr3yf\source\repos\dart\simpleConsoleClient\obj\Debug\netcoreapp3.1\simpleConsoleClient.pdb

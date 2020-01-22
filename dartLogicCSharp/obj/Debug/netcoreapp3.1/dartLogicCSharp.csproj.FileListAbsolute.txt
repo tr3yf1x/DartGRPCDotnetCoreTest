@@ -1,0 +1,11 @@
+C:\Users\tr3yf\source\repos\dart\dartLogicCSharp\obj\Debug\netcoreapp3.1\dartLogicCSharp.csprojAssemblyReference.cache
+C:\Users\tr3yf\source\repos\dart\dartLogicCSharp\obj\Debug\netcoreapp3.1\dartLogicCSharp.AssemblyInfoInputs.cache
+C:\Users\tr3yf\source\repos\dart\dartLogicCSharp\obj\Debug\netcoreapp3.1\dartLogicCSharp.AssemblyInfo.cs
+C:\Users\tr3yf\source\repos\dart\dartLogicCSharp\bin\Debug\netcoreapp3.1\dartLogicCSharp.exe
+C:\Users\tr3yf\source\repos\dart\dartLogicCSharp\bin\Debug\netcoreapp3.1\dartLogicCSharp.deps.json
+C:\Users\tr3yf\source\repos\dart\dartLogicCSharp\bin\Debug\netcoreapp3.1\dartLogicCSharp.runtimeconfig.json
+C:\Users\tr3yf\source\repos\dart\dartLogicCSharp\bin\Debug\netcoreapp3.1\dartLogicCSharp.runtimeconfig.dev.json
+C:\Users\tr3yf\source\repos\dart\dartLogicCSharp\bin\Debug\netcoreapp3.1\dartLogicCSharp.dll
+C:\Users\tr3yf\source\repos\dart\dartLogicCSharp\bin\Debug\netcoreapp3.1\dartLogicCSharp.pdb
+C:\Users\tr3yf\source\repos\dart\dartLogicCSharp\obj\Debug\netcoreapp3.1\dartLogicCSharp.dll
+C:\Users\tr3yf\source\repos\dart\dartLogicCSharp\obj\Debug\netcoreapp3.1\dartLogicCSharp.pdb

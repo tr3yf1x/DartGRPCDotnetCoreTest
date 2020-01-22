@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+option csharp_namespace = "dartServer";
+
+package greet;
+
+// The greeting service definition.
+service Greeter {
+  // Sends a greeting
+  rpc SayHello (HelloRequest) returns (HelloReply);
+  rpc GetThrowResult (ThrowRequest) returns (ThrowReply);
+}
+
+// The request message containing the user's name.
+message HelloRequest {
+  string name = 1;
+}
+
+// The response message containing the greetings.
+message HelloReply {
+  string message = 1;
+}
+
+// Request message with coordinates (sanatized)
+message ThrowRequest {
+    double XCoord = 1;
+    double YCoord = 2;
+}
+
+message ThrowReply {
+            double XCoord = 1;
+            double YCoord = 2;
+            double DistanceToCenter = 3;
+            bool HitTheBoard = 4;
+            int32 Multiplicator = 5;
+            double Angle = 6;
+            int32 PointSlot = 7;
+            int32 Points = 8;
+}
+
