@@ -37,6 +37,10 @@ cd BlazorFrontend\
 dotnet run
 ~~~
 
+## 3. Open Browser
+
+Open your Browser on [http://localhost:5002/fetchdata](http://localhost:5002/fetchdata). 
+
 # License
 
 Don't use this code for any production, non-benefit, non-opensource and corporative use-cases.
