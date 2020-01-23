@@ -18,6 +18,12 @@ To start this awesome learning experience / proof of concept you need dotnet-cor
 
 And at least two terminal windows.
 
+If you encounter any SSL-Errors, try running the following command in the server + client-folders (e.g. every dotnet-core project contained within this folder):
+
+~~~
+dotnet dev-certs https --trust
+~~~
+
 And a modern browser.
 
 ## 1. Start the dart logic server
@@ -26,8 +32,11 @@ New Terminal:
 
 ~~~
 cd dartServer\
+dotnet dev-certs https --trust
 dotnet run
 ~~~
+
+(The 2nd Line: `dotnet dev-cert...` is only necessary if this is you first start of the application and you don't have the already enabled your dev-ssl settings)
 
 ## 2. Start the blazor frontend
 
@@ -35,8 +44,11 @@ New Terminal:
 
 ~~~
 cd BlazorFrontend\
+dotnet dev-certs https --trust
 dotnet run
 ~~~
+
+(The 2nd Line: `dotnet dev-cert...` is only necessary if this is you first start of the application and you don't have the already enabled your dev-ssl settings)
 
 ## 3. Open Browser
 
