@@ -52,8 +52,6 @@ namespace DartLogic
 
     class ThrowAnalyzer
     {
-
-
         public double DistanceToCenter(NormalizedPoint _point)
         {
             return Math.Sqrt(( _point.xCoord * _point.xCoord) + (_point.yCoord * _point.yCoord));
