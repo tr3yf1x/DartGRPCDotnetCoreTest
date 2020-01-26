@@ -90,6 +90,20 @@ using Grpc.Net.Client;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "C:\Users\tr3yf\source\repos\dart\BlazorFrontend\_Imports.razor"
+using Blazor.Extensions.Canvas;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 13 "C:\Users\tr3yf\source\repos\dart\BlazorFrontend\_Imports.razor"
+using Blazor.Extensions.Canvas.Canvas2D;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/counter")]
     public partial class Counter : Microsoft.AspNetCore.Components.ComponentBase
     {

@@ -2,18 +2,23 @@
 
 @using BlazorFrontend.Data
 @inject DartService DartService
+@using Blazor.Extensions.Canvas  
+@using Blazor.Extensions;  
+@using Blazor.Extensions.Canvas.Canvas2D; 
 
 <h1>DartThrow Summary</h1>
 
 <p>Aufruf des GRPC Services</p>
 
+<BECanvas Width="500" Height="500" @ref="_canvasReference"></BECanvas> 
 @if (dartThrow == null)
 {
     <button class="btn btn-primary" @onclick="RandomThrow">Random Throw</button>
 }
 else
 {
-    <dl>
+    <button class="btn btn-primary" @onclick="RandomThrow">Random Throw</button>
+        <dl>
         <dt>xCoord</dt>
         <dd>@dartThrow.xCoord</dd>
         <dt>yCoord</dt>
@@ -30,22 +35,61 @@ else
         <dd>@dartThrow.pointSlot</dd>
         <dt>points</dt>
         <dd>@dartThrow.points</dd>
-    </dl>
+        </dl>
+
+        <table class="table">
+        <thead>
+        <tr>
+        <th>X</th>
+        <th>Y</th>
+        <th>Hit</th>
+        <th>Points</th>
+        <th>Multiplicator</th>
+        <th>Pointslot</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in dartThrows)
+        {
+            <tr>
+                <td>@item.xCoord</td>
+                <td>@item.yCoord</td>
+                <td>@item.hitTheBoard</td>
+                <td>@item.points</td>
+                <td>@item.multiplicator</td>
+                <td>@item.pointSlot</td>
+                </tr>
+        }
+    </tbody>
+        </table>
 }
 
 @code {
     private DartThrow dartThrow;
+    private List<DartThrow> dartThrows = new List<DartThrow>();
+
+    private Canvas2DContext _context;  
+    protected BECanvasComponent _canvasReference; 
+
 
     private void RandomThrow()
     {
         Random rnd = new Random();
-        SetThrow( rnd.NextDouble(), rnd.NextDouble());
-
+        SetThrow( rnd.NextDouble() - rnd.NextDouble(), rnd.NextDouble() - rnd.NextDouble());
     }
     private void SetThrow(double _xCoord, double _yCoord)
     {
-
-        dartThrow 
-            = DartService.GetDartThrowAsync(_xCoord,_yCoord);
+        dartThrow = DartService.GetDartThrowAsync(_xCoord,_yCoord);
+        dartThrows.Add(dartThrow);
     }
+protected override async Task OnAfterRenderAsync(bool firstRender)
+{
+    this._context = await this._canvasReference.CreateCanvas2DAsync();
+    await this._context.SetFillStyleAsync("green");
+
+    await this._context.FillRectAsync(10, 100, 100, 100);
+    await this._context.DrawArraysAsync(Primitive.TRIANGLES, 0, 3);
+    await this._context.SetFontAsync("48px serif");
+}
+
 }

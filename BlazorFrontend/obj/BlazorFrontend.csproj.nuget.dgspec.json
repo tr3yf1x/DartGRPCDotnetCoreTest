@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "blazor.extensions.canvas": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
             "google.protobuf": {
               "target": "Package",
               "version": "[3.11.2, )"
