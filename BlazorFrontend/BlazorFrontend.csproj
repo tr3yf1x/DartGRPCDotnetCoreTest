@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <PackageReference Include="blazor.extensions.canvas" Version="1.0.0" />
-    <PackageReference Include="google.protobuf" Version="3.11.2" />
+    <PackageReference Include="google.protobuf" Version="3.15.0" />
     <PackageReference Include="grpc.net.client" Version="2.26.0" />
     <PackageReference Include="grpc.tools" Version="2.26.0">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
